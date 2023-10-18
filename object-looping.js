@@ -16,7 +16,7 @@ console.log(propertyValue);
 
 //loop for showing propertyName and propertyValue in the same line
 for (var propertyNames in myComputer){
-    const value = myComputer[propertyName];
-    console.log(value);
+    const value = myComputer[propertyNames];
+    console.log(propertyNames, value);
 }
 
